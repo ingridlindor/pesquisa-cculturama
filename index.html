@@ -16,7 +16,7 @@
     <main>
         <section class="dados-pessoais"> 
             <form action =  "" method ="get">
-                <fieldset>
+                <!-- <fieldset>
                     <legend>Dados Pessoais</legend>
 
                     
@@ -39,8 +39,25 @@
                     <input type="file" id="userImage" name="userImage" >
 
 
-                    <button type="submit">Enviar</button>
+                </fieldset> -->
+
+                <fieldset>
+                    <legend>Perfil</legend>
+
+
+                    <p>Gênero:</p>
+                    <input type ="radio" name="userGender" value ="Feminino">
+                    <label for="userGender" value="Feminino">Feminino</label>
+
+                    <input type ="radio" name="userGender" value="Masculino">
+                    <label for="userGender" value="Masculino">Masculino</label>
+                    
+                    <input type ="radio" name="userGender" value="Prefiro não informar">
+                    <label for="userGender" value="Prefiro não informar">Prefiro não informar</label>
                 </fieldset>
+
+                                    <button type="submit">Enviar</button>
+
             </form>
         </section>
     </main>
