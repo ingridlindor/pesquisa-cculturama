@@ -39,7 +39,7 @@
                     <input type="file" id="userImage" name="userImage" >
 
 
-                    
+
                 </fieldset>
 
                 <fieldset>
@@ -99,6 +99,47 @@
                   <label for="userCity"> Cidade: </label>
                   <input type="text" id="userCity" name="userCity" required>
                
+                </fieldset>
+
+                <fieldset>
+                    <legend>Hábitos</legend>
+                    <p>Redes Sociais:</p>
+                    <input type = "checkbox" name="socialMedia" value="Facebook" id="Facebook"> 
+                    <label  for="Facebook" value="Facebook">Facebook</label>
+
+                    <input type = "checkbox" name="socialMedia" value="Instagram" id="Instagram"> 
+                    <label  for="Instagram" value="Instagram">Instagram</label>
+
+                    <input type = "checkbox" name="socialMedia" value="Twitter" id="Twitter"> 
+                    <label  for="Twitter" value="Twitter">X (Twitter)</label>
+
+                    <input type = "checkbox" name="socialMedia" value="LinkedIn" id="LinkedIn">
+                    <label  for="LinkedIn" value="LinkedIn">LinkedIn</label>
+
+                    <input type = "checkbox" name="socialMedia" value="TikTok" id="TikTok">
+                    <label  for="TikTok" value="TikTok">TikTok</label>
+
+                    <br>
+                    <label for="musicStyle">Estilo Musical Preferido:</label>
+                    <input type="text" id="musicStyle" name="musicStyle" list="musicStyles">
+                    <datalist id="musicStyles">
+                        <option value="Rock">Rock</option>
+                        <option value="Pop">Pop</option>
+                        <option value="Sertanejo">Sertanejo</option>
+                        <option value="Funk">Funk</option>
+                        <option value="MPB">MPB</option>
+                        <option value="Eletrônica">Eletrônica</option>
+                        <option value="Hip Hop">Hip Hop</option>
+                        <option value="Clássica">Clássica</option>
+                    </datalist>
+                    <br>
+                    <label for="UserColor">Cor Preferida:</label>
+                    <input type="color" id="UserColor" name="UserColor" value="#f0f0f0">
+                    <br>
+
+
+
+
                 </fieldset>
 
                 <button type="submit">Enviar</button>
