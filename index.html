@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <main>
 
     <header>
         <img src ="img/logo-culturama.png" alt="Logo Culturama" width="150">
@@ -19,7 +20,7 @@
         <p>Encontre eventos e atividades culturais na sua região.</p>
     </header>
 
-    <main>
+    
         <section class="dados-pessoais"> 
             <form action =  "" method ="get">
                 <fieldset>
@@ -39,7 +40,7 @@
                     <input type="email" id="userEmail" name="userEmail" required>
 
                     <label for ="userPhone"> Telefone: </label>
-                    <input type="tel" id="userPhone" name="userPhone" required> 
+                    <input type="tel" id="userPhone" name="userPhone" > 
 
                     <label for ="userImage"> Foto de Perfil: </label>
                     <input type="file" id="userImage" name="userImage" >
@@ -155,7 +156,8 @@
                     <input type ="radio" name="userAvaliacao" value="regular">
                     <label for="userAvaliacao" value="regular">Regular</label>
                     <br>
-                
+                    
+                    <p>Escreva a sua opinião sobre o evento:</p>
                     <textarea id="userOpinion" name="userOpinion" rows="4" cols="50" placeholder="Compartilhe sua opinião sobre o evento..."></textarea>    
                 </fieldset>
 
