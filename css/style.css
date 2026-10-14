@@ -59,6 +59,17 @@ label{
     font-weight: bold;
 }
 
+input[type="tel"], 
+input[type="file"]{
+    margin-bottom: 0;
+   
+}
+
+small{
+    display:inline-block;
+    margin-bottom: 20px;
+}
+
 p{
     margin-bottom: 10px;
 }
